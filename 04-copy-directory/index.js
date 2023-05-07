@@ -44,4 +44,8 @@ async function copyDir(srcPath, distPath) {
     }
 }
 
+module.exports = {
+    removeDir,
+    copyDir,
+}
 
